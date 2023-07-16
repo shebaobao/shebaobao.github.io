@@ -5,11 +5,11 @@
 # Site
 title: 奢饱饱 - 产研团队
 author: 奢饱饱
-language: zh-Hans
+language: zh-CN
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://tech.shebaobao.cn
+url: https://geek.shebaobao.cn
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -94,8 +94,18 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
+theme_config:
+  scheme: Pisces
+  darkmode: true
+  minify: true
+  open_graph:
+    enable: true
+  sidebar:
+    on: true
+    position: left
+  toc:
+    enable: true
+  menu:
+    home: / || fa fa-home
+    archives: /archives/ || fa fa-archive
+    学习: /learning/ || fa fa-book

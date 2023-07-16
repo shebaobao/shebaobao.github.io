@@ -3,10 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "dev": "hexo server"
+    "dev": "hexo server --debug",
+    "new": "hexo new",
+    "generate": "hexo generate"
   },
   "hexo": {
     "version": "6.3.0"
@@ -21,6 +20,6 @@
     "hexo-renderer-marked": "*",
     "hexo-renderer-stylus": "*",
     "hexo-server": "*",
-    "hexo-theme-next": "*"
+    "hexo-theme-next": "^8.17.1"
   }
 }

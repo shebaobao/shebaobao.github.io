@@ -20,6 +20,6 @@
     "hexo-renderer-marked": "*",
     "hexo-renderer-stylus": "*",
     "hexo-server": "*",
-    "hexo-theme-next": "^8.19.2"
+    "hexo-theme-next": "^8.20.0"
   }
 }
